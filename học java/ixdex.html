@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Dang Nhap</title>
+    <link rel="stylesheet" href="bcackgrout.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Dang Nhap</h2>
+      <from id="loginForm">
+        <div class="input-group">
+            <label for="username">Ten Dang Nhap</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+              placeholder="Nhap Ten Dang nhap"
+            />
+    </div>
+    <div class="input-group">
+        <label for="password">Mat Khau</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Nhap Mat Khau"
+         /> 
+
+    </div>
+    <button type="submit">Dang Nhap</button>
+    <p id="error-message" style="color: red; display: none"></p>
+    </from>
+    <script src="dong.js"></script>
+  </body>
+</html>
